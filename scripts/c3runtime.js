@@ -3185,6 +3185,7 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		{Espinar07TeresaNUEVO: 0},
 		{Espinar07TeresaDIALOGONUEVO: 0},
 		{Espinar07TeresaNOMBRE: 0},
+		{Espinar08Texto2: 0},
 		{Espinar08CampamentoAntapaccay: 0},
 		{Espinar08Texto: 0},
 		{Espinar09Dialogo2: 0},
