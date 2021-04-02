@@ -3165,6 +3165,7 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		{Espinar04EnCocina2: 0},
 		{Espinar04AEnCocina2: 0},
 		{Espinar04Dialogo: 0},
+		{simbolosDeInteraccion4: 0},
 		{Espinar05Texto: 0},
 		{Espinar05Texto2: 0},
 		{Espinar05CeferinoEnVentanaPERSONAJE: 0},
