@@ -3322,6 +3322,7 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		{Espinar21Texto7: 0},
 		{Espinar21Texto8: 0},
 		{Espinar21Texto9: 0},
+		{Espinar21CreditosULTIMO: 0},
 		{Espinar01Portada: 0},
 		{Espinar01TextoTitulo: 0},
 		{boton1Reportaje: 0},
