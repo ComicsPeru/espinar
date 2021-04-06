@@ -3194,6 +3194,7 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		{mojerplay: 0},
 		{Espinar08CampamentoAntapaccay: 0},
 		{Espinar08Texto: 0},
+		{Espinar08Texto3: 0},
 		{Espinar09Dialogo2: 0},
 		{Espinar09APanorama: 0},
 		{Espinar09Panorama: 0},
