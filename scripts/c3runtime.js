@@ -3340,6 +3340,8 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		{Espinar12DConDoctoraFONDO: 0},
 		{Espinar12BConDoctoraNUEVO: 0},
 		{iframe: 0},
+		{logo2: 0},
+		{logo3: 0},
 		{Tween: 0},
 		{Sine: 0},
 		{Pin: 0},
