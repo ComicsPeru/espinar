@@ -3049,7 +3049,6 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		C3.Behaviors.Flash,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Browser.Acts.GoToURLWindow,
-		C3.Plugins.Browser.Acts.GoToURL,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Acts.NextPrevLayout,
