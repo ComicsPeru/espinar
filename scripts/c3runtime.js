@@ -3147,10 +3147,12 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		{Sprite: 0},
 		{Sprite2: 0},
 		{Sprite3: 0},
-		{Sprite4: 0},
+		{tw: 0},
 		{versionTxt: 0},
 		{simbolosDeInteraccion: 0},
 		{logo: 0},
+		{fb: 0},
+		{Sprite6: 0},
 		{Espinar02Ordeñando: 0},
 		{Espinar03MapasFONDOS: 0},
 		{Espinar03MapasZONAS: 0},
@@ -3460,13 +3462,14 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		() => "https://espinar.convoca.pe/index.html",
 		() => "link",
 		() => "https://convoca.pe/expediente-toxico-el-comic",
-		() => "https://",
+		() => "https://convoca.pe/agenda-propia/convocape-publica-el-segundo-comic-interactivo-sobre-familia-del-cusco-afectada-por",
 		() => "popup",
 		() => "fondo",
 		() => 0,
 		() => "",
 		() => "display",
 		() => "none",
+		() => -24,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => ("V." + f0());
@@ -3479,6 +3482,8 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		},
 		() => 40,
 		() => "internas",
+		() => 130,
+		() => 220,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => and("Alpha in", n0.ExpObject());
@@ -3515,6 +3520,10 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		},
 		() => 0.3,
 		() => 100,
+		() => "https://www.facebook.com/sharer.php?u=https://convoca.pe/expediente-toxico-el-comic/espinar",
+		() => "NewWindow",
+		() => "https://twitter.com/intent/tweet?text=Espinar:%20El%20campo%20de%20concentraci%C3%B3n%20de%20los%20metales&url=https://convoca.pe/expediente-toxico-el-comic/espinar",
+		() => "https://convoca.pe/",
 		() => "dialogo",
 		() => -12,
 		p => {
