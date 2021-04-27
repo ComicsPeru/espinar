@@ -3067,19 +3067,19 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.Sprite.Acts.MoveToTop,
 		C3.Plugins.Sprite.Acts.SetAnim,
+		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.System.Exps.layoutname,
 		C3.Plugins.System.Cnds.ForEach,
 		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
 		C3.Plugins.Browser.Acts.ConsoleLog,
 		C3.Plugins.Sprite.Exps.IID,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.SetBoolVar,
-		C3.Plugins.System.Cnds.Compare,
-		C3.Plugins.System.Exps.layoutname,
 		C3.Plugins.Audio.Cnds.IsAnyPlaying,
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Touch.Cnds.OnTapGesture,
-		C3.Plugins.Browser.Acts.ExecJs,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
+		C3.Plugins.Browser.Acts.ExecJs,
 		C3.Plugins.System.Cnds.LayerVisible,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.Browser.Cnds.IsFullscreen,
@@ -3482,6 +3482,11 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		},
 		() => 40,
 		() => "internas",
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0();
+		},
+		() => "Escena 00",
 		() => 130,
 		() => 220,
 		p => {
@@ -3490,10 +3495,6 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		},
 		() => 1,
 		() => 4,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0();
-		},
 		() => "Escena 01",
 		() => 360,
 		() => "Escena 29",
