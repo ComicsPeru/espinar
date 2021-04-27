@@ -3079,6 +3079,7 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Touch.Cnds.OnTapGesture,
 		C3.Plugins.Browser.Acts.ExecJs,
+		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.System.Cnds.LayerVisible,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.Browser.Cnds.IsFullscreen,
